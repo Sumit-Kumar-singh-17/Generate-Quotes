@@ -24,25 +24,12 @@ const quotes = [
 
 
  function generatQuote(){  
- const text = document.getElementById("quote");
+const text = document.getElementById("quote");
 
 
- const index = Math.floor(Math.random()*quotes.length);
- text.textContent = quotes[index];
- }
+const index = Math.floor(Math.random()*quotes.length);
+text.textContent = quotes[index];
+}
 
 
- setInterval(generatQuote,2000);
-
-
- const button = document.addEventListener("click",generatQuote);
-
-const button = document.querySelector("button");
-button.addEventListener("click",()=>{
-  const text = document.getElementById("quote");
-
-
-  const index = Math.floor(Math.random()*quotes.length);
-  text.textContent = quotes[index];
-})
-
+setInterval(generatQuote,2000);
