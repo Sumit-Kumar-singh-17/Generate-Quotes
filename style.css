@@ -23,7 +23,7 @@ body {
     color: #555;
   }
   
-  .quote-box {
+  #quote-box {
     margin: 20px 0;
     padding: 20px;
     border-left: 4px solid #007bff;
@@ -32,3 +32,9 @@ body {
     border-radius: 5px;
   }
   
+button {
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+}
